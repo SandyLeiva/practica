@@ -13,8 +13,8 @@ class MyApp extends StatelessWidget {
       title: 'Peliculas',
       initialRoute: 'home',
       routes: {
-        'home':    ( _ ) => HomeScreen(),
-        'details': ( _ ) => DetailsScreen()
+        'casa':    ( _ ) => HomeScreen(),
+        'detalles': ( _ ) => DetailsScreen()
         
       },
       theme: ThemeData.light().copyWith(
